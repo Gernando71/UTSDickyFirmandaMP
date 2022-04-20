@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView listView;
     String mTitle[] = {"Facebook", "Whatsapp", "Twitter", "Instagram", "Youtube"};
-    String mDescription[] = {"Dicky Firmanda", "081312345678", "dickyfmd", "dfzoz_", "dfmdchannel"};
+    String mDescription[] = {"Ahmad Gernando L", "08159176310", "plzbreathe", "gernando__", "Ahmad Gernando"};
     int images[] = {R.drawable.facebook, R.drawable.whatsapp, R.drawable.twitter, R.drawable.instagram, R.drawable.youtube};
     // so our images and other things are set in array
 
@@ -43,19 +43,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position ==  0) {
-                    Toast.makeText(MainActivity.this, "Dicky Firmanda", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Ahmad Gernando L", Toast.LENGTH_SHORT).show();
                 }
                 if (position ==  0) {
-                    Toast.makeText(MainActivity.this, "081312345678", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "08159176310", Toast.LENGTH_SHORT).show();
                 }
                 if (position ==  0) {
-                    Toast.makeText(MainActivity.this, "dickyfmd", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "plzbreathe", Toast.LENGTH_SHORT).show();
                 }
                 if (position ==  0) {
-                    Toast.makeText(MainActivity.this, "dfzoz_", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "gernando__", Toast.LENGTH_SHORT).show();
                 }
                 if (position ==  0) {
-                    Toast.makeText(MainActivity.this, "dfmdchannel", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Ahmad Gernando", Toast.LENGTH_SHORT).show();
                 }
             }
         });
